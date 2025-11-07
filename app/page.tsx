@@ -131,6 +131,12 @@ export default function Home() {
             😩 I'm tired
           </button>
           <button
+            onClick={() => window.open("https://forms.gle/SbdTwuxGyP1yndKb6", "_blank")}
+            className="flex-1 sm:flex-none bg-green-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-700 transition-all hover:scale-105 active:scale-95"
+          >
+            💬 Feedback
+          </button>
+          <button
             onClick={() => {
               if (confirm("Reset all progress? This cannot be undone.")) {
                 resetProgress();
