@@ -77,7 +77,7 @@ export default function Home() {
   // Show Quiz Mode
   if (showQuiz) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-4 sm:py-8 px-3 sm:px-4">
+      <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white py-4 sm:py-8 px-3 sm:px-4">
         <Quiz
           words={words}
           onBack={() => setShowQuiz(false)}
@@ -92,11 +92,11 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-4 sm:py-8 px-3 sm:px-4">
+    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white py-4 sm:py-8 px-3 sm:px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <header className="text-center mb-6 sm:mb-8">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">
+          <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent mb-2">
             SAT Vocabulary Trainer
           </h1>
           <p className="text-gray-600 text-base sm:text-lg">
@@ -114,25 +114,25 @@ export default function Home() {
         <div className="flex flex-wrap gap-3 sm:gap-4 mb-6">
           <button
             onClick={() => setShowQuiz(true)}
-            className="flex-1 sm:flex-none bg-blue-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all hover:scale-105 active:scale-95"
+            className="flex-1 sm:flex-none bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all hover:scale-105 active:scale-95 shadow-md"
           >
             Start Quiz
           </button>
           <button
             onClick={() => setShowDashboard(!showDashboard)}
-            className="flex-1 sm:flex-none bg-purple-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-purple-700 transition-all hover:scale-105 active:scale-95"
+            className="flex-1 sm:flex-none bg-white text-orange-600 border-2 border-orange-500 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all hover:scale-105 active:scale-95"
           >
             {showDashboard ? "Hide" : "Show"} Analytics
           </button>
           <button
             onClick={handleMotivationClick}
-            className="flex-1 sm:flex-none bg-orange-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-orange-700 transition-all hover:scale-105 active:scale-95"
+            className="flex-1 sm:flex-none bg-white text-orange-600 border-2 border-orange-500 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all hover:scale-105 active:scale-95"
           >
             😩 I'm tired
           </button>
           <button
             onClick={() => window.open("https://forms.gle/SbdTwuxGyP1yndKb6", "_blank")}
-            className="flex-1 sm:flex-none bg-green-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-700 transition-all hover:scale-105 active:scale-95"
+            className="flex-1 sm:flex-none bg-white text-orange-600 border-2 border-orange-500 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all hover:scale-105 active:scale-95"
           >
             💬 Feedback
           </button>
@@ -142,7 +142,7 @@ export default function Home() {
                 resetProgress();
               }
             }}
-            className="flex-1 sm:flex-none bg-red-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-red-700 transition-all hover:scale-105 active:scale-95"
+            className="flex-1 sm:flex-none bg-white text-gray-600 border-2 border-gray-300 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-gray-50 transition-all hover:scale-105 active:scale-95"
           >
             Reset Progress
           </button>
@@ -235,8 +235,8 @@ export default function Home() {
                   key={word.word}
                   className={`bg-white rounded-lg border-2 overflow-hidden transition-all hover:shadow-lg cursor-pointer hover:scale-105 ${
                     isLearned
-                      ? "border-green-400 bg-green-50/50"
-                      : "border-gray-200 hover:border-blue-300"
+                      ? "border-orange-400 bg-orange-50/50"
+                      : "border-gray-200 hover:border-orange-300"
                   }`}
                   onClick={() => setExpandedWord(word.word)}
                 >
@@ -247,7 +247,7 @@ export default function Home() {
                         {word.word}
                       </h3>
                       {isLearned && (
-                        <span className="text-green-600 text-sm flex-shrink-0 ml-1">✓</span>
+                        <span className="text-orange-600 text-sm flex-shrink-0 ml-1">✓</span>
                       )}
                     </div>
 
@@ -258,7 +258,7 @@ export default function Home() {
 
                     {/* Part of Speech Badge */}
                     {word.partOfSpeech && (
-                      <span className="inline-block mt-2 px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded">
+                      <span className="inline-block mt-2 px-2 py-1 text-xs bg-orange-100 text-orange-700 rounded">
                         {word.partOfSpeech}
                       </span>
                     )}
@@ -315,13 +315,13 @@ export default function Home() {
                           {word.word}
                         </h2>
                         {isLearned && (
-                          <span className="text-green-600 text-2xl flex-shrink-0 ml-2">
+                          <span className="text-orange-600 text-2xl flex-shrink-0 ml-2">
                             ✓
                           </span>
                         )}
                       </div>
                       {word.partOfSpeech && (
-                        <span className="inline-block px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded-full font-medium">
+                        <span className="inline-block px-3 py-1 text-sm bg-orange-100 text-orange-700 rounded-full font-medium">
                           {word.partOfSpeech}
                         </span>
                       )}
@@ -358,11 +358,11 @@ export default function Home() {
                     </div>
 
                     {/* Tip */}
-                    <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
-                      <h3 className="text-sm font-semibold text-blue-700 uppercase mb-2">
+                    <div className="bg-orange-50 border-l-4 border-orange-500 p-4 rounded">
+                      <h3 className="text-sm font-semibold text-orange-700 uppercase mb-2">
                         Memory Tip
                       </h3>
-                      <p className="text-base text-blue-900">{word.tip}</p>
+                      <p className="text-base text-orange-900">{word.tip}</p>
                     </div>
                   </div>
                 );
