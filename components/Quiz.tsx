@@ -146,7 +146,7 @@ export default function Quiz({ words, onBack, onQuizComplete, onRecordAnswer }: 
             </p>
             <button
               onClick={() => window.open("https://forms.gle/SbdTwuxGyP1yndKb6", "_blank")}
-              className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all hover:scale-105 active:scale-95 shadow-md"
+              className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-colors active:scale-95 shadow-md"
             >
               💬 Leave Feedback
             </button>
@@ -156,13 +156,13 @@ export default function Quiz({ words, onBack, onQuizComplete, onRecordAnswer }: 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           <button
             onClick={generateQuestions}
-            className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all hover:scale-105 active:scale-95 shadow-md"
+            className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-colors active:scale-95 shadow-md"
           >
             Try Again
           </button>
           <button
             onClick={onBack}
-            className="bg-white text-gray-600 border-2 border-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-all hover:scale-105 active:scale-95"
+            className="bg-white text-gray-600 border-2 border-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors active:scale-95"
           >
             Back to Words
           </button>
@@ -281,7 +281,7 @@ export default function Quiz({ words, onBack, onQuizComplete, onRecordAnswer }: 
 
           <button
             onClick={handleNext}
-            className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all hover:scale-105 active:scale-95 shadow-md text-sm sm:text-base"
+            className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-colors active:scale-95 shadow-md text-sm sm:text-base"
           >
             {currentQuestion < questions.length - 1 ? "Next Question" : "See Results"}
           </button>

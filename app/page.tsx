@@ -111,28 +111,28 @@ export default function Home() {
         />
 
         {/* Action Buttons */}
-        <div className="flex flex-wrap gap-3 sm:gap-4 mb-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4 mb-6">
           <button
             onClick={() => setShowQuiz(true)}
-            className="flex-1 sm:flex-none bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all hover:scale-105 active:scale-95 shadow-md"
+            className="bg-orange-500 text-white border-2 border-orange-500 px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-semibold hover:bg-orange-600 hover:border-orange-600 hover:scale-105 transition-all active:scale-95 shadow-sm"
           >
             Start Quiz
           </button>
           <button
             onClick={() => setShowDashboard(!showDashboard)}
-            className="flex-1 sm:flex-none bg-white text-orange-600 border-2 border-orange-500 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all hover:scale-105 active:scale-95"
+            className="bg-white text-orange-600 border-2 border-orange-200 px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-semibold hover:bg-orange-50 hover:border-orange-400 hover:scale-105 transition-all active:scale-95 shadow-sm"
           >
             {showDashboard ? "Hide" : "Show"} Analytics
           </button>
           <button
             onClick={handleMotivationClick}
-            className="flex-1 sm:flex-none bg-white text-orange-600 border-2 border-orange-500 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all hover:scale-105 active:scale-95"
+            className="bg-white text-orange-600 border-2 border-orange-200 px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-semibold hover:bg-orange-50 hover:border-orange-400 hover:scale-105 transition-all active:scale-95 shadow-sm"
           >
             😩 I'm tired
           </button>
           <button
             onClick={() => window.open("https://forms.gle/SbdTwuxGyP1yndKb6", "_blank")}
-            className="flex-1 sm:flex-none bg-white text-orange-600 border-2 border-orange-500 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all hover:scale-105 active:scale-95"
+            className="bg-white text-orange-600 border-2 border-orange-200 px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-semibold hover:bg-orange-50 hover:border-orange-400 hover:scale-105 transition-all active:scale-95 shadow-sm"
           >
             💬 Feedback
           </button>
@@ -142,7 +142,7 @@ export default function Home() {
                 resetProgress();
               }
             }}
-            className="flex-1 sm:flex-none bg-white text-gray-600 border-2 border-gray-300 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-gray-50 transition-all hover:scale-105 active:scale-95"
+            className="bg-white text-orange-600 border-2 border-orange-200 px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-semibold hover:bg-orange-50 hover:border-orange-400 hover:scale-105 transition-all active:scale-95 shadow-sm"
           >
             Reset Progress
           </button>
@@ -233,7 +233,7 @@ export default function Home() {
               return (
                 <div
                   key={word.word}
-                  className={`bg-white rounded-lg border-2 overflow-hidden transition-all hover:shadow-lg cursor-pointer hover:scale-105 ${
+                  className={`bg-white rounded-lg border-2 overflow-hidden transition-all hover:shadow-lg cursor-pointer ${
                     isLearned
                       ? "border-orange-400 bg-orange-50/50"
                       : "border-gray-200 hover:border-orange-300"
