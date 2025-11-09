@@ -5943,5 +5943,117 @@ export const words: Word[] = [
     example: "The news report gave a graphic description of the accident.",
     tip: "Remember: relating to visual art",
     partOfSpeech: "adjective"
+  },
+{
+    word: "esoteric",
+    definition: "intended for or understood by only a small number of people with specialized knowledge",
+    russian: "эзотерический, что-то сверхестественное",
+    example: "The professor's lecture on quantum mechanics was too esoteric for most students.",
+    tip: "Esoteric = rare knowledge for the few, mysterious and specialized.",
+    partOfSpeech: "adjective"
+  },
+{
+    word: "foraging",
+    definition: "searching widely for food or provisions",
+    russian: "поиск еды, добыча пищи",
+    example: "The squirrels were foraging for acorns in the forest.",
+    tip: "Foraging = hunting FOR food in nature.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "negligibly",
+    definition: "to such a small degree as to be not worth considering; insignificantly",
+    russian: "незначительно, пренебрежимо мало",
+    example: "The price difference was negligibly small.",
+    tip: "Negligibly = so small you can neglect it, basically nothing.",
+    partOfSpeech: "adverb"
+  },
+{
+    word: "bolster",
+    definition: "to support or strengthen; to prop up",
+    russian: "усилить, поддержать, укрепить",
+    example: "The new evidence will bolster their argument.",
+    tip: "Bolster = boost and strengthen, like a pillow supports your head.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "resistance",
+    definition: "the refusal to accept or comply with something; the ability to withstand or oppose",
+    russian: "сопротивление, устойчивость",
+    example: "The bacteria showed resistance to antibiotics.",
+    tip: "Resistance = standing against, refusing to give in.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "vertebrates",
+    definition: "animals having a backbone or spinal column",
+    russian: "позвоночные животные",
+    example: "Mammals, birds, and fish are all vertebrates.",
+    tip: "Vertebrates have vertebrae (backbones) in their spine.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "shrank",
+    definition: "became smaller in size or amount (past tense of shrink)",
+    russian: "уменьшился, сократился",
+    example: "His confidence shrank after the criticism.",
+    tip: "Shrank = got smaller, like a sweater in hot water.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "extinction",
+    definition: "the state or process of being or becoming extinct; complete disappearance",
+    russian: "вымирание, исчезновение",
+    example: "Many species are facing extinction due to climate change.",
+    tip: "Extinction = being extinguished forever, no longer existing.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "swelled",
+    definition: "became larger or rounder in size, typically as a result of accumulation (past tense of swell)",
+    russian: "увеличился, раздулся, набух",
+    example: "The crowd swelled to over 10,000 people.",
+    tip: "Swelled = expanded and grew bigger, opposite of shrank.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "moderated",
+    definition: "made or became less extreme, intense, or violent",
+    russian: "умерить, сделать умеренным",
+    example: "He moderated his tone after seeing her reaction.",
+    tip: "Moderated = made moderate, toned down to middle ground.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "facilitated",
+    definition: "made an action or process easy or easier; helped bring about",
+    russian: "способствовал, облегчил, предоставил возможность",
+    example: "The new software facilitated communication between teams.",
+    tip: "Facilitated = made it easy (facile), helped things happen smoothly.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "exerted",
+    definition: "applied or brought to bear (a force, influence, or quality)",
+    russian: "оказывал давление, прилагал усилия",
+    example: "She exerted pressure on the committee to change the policy.",
+    tip: "Exerted = pushed out force or effort, applied energy.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "alternates",
+    definition: "occurs in turn repeatedly; switches back and forth between two things",
+    russian: "переключается между, чередуется",
+    example: "The weather alternates between rain and sunshine.",
+    tip: "Alternates = goes back and forth, takes turns between options.",
+    partOfSpeech: "verb"
+  },
+{
+    word: "posthumously",
+    definition: "occurring, awarded, or appearing after the death of the person involved",
+    russian: "посмертно, после смерти",
+    example: "The author's final novel was published posthumously.",
+    tip: "Posthumous = POST (after) death, happening after someone dies.",
+    partOfSpeech: "adverb"
   }
 ];

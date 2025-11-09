@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SAT Vocabulary Trainer",
-  description: "Master 742 essential SAT words with interactive quizzes and progress tracking",
+  description: "Master 756 essential SAT words with interactive quizzes and progress tracking",
 };
 
 export default function RootLayout({
