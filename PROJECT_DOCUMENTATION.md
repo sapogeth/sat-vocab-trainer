@@ -1,6 +1,6 @@
 # 📚 SAT Vocabulary Trainer - Complete Project Documentation
 
-A comprehensive, interactive web application for mastering 756 essential SAT vocabulary words with advanced progress tracking, error analytics, and motivational features.
+A comprehensive, interactive web application for mastering 765 essential SAT vocabulary words with advanced progress tracking, error analytics, and motivational features.
 
 ---
 
@@ -25,7 +25,7 @@ A comprehensive, interactive web application for mastering 756 essential SAT voc
 ## 🎯 Project Overview
 
 ### Purpose
-An intelligent vocabulary learning platform designed to help students prepare for the SAT exam by mastering 756 carefully selected words through:
+An intelligent vocabulary learning platform designed to help students prepare for the SAT exam by mastering 765 carefully selected words through:
 - Interactive quiz system
 - Spaced repetition learning
 - Progress tracking with localStorage persistence
@@ -33,7 +33,7 @@ An intelligent vocabulary learning platform designed to help students prepare fo
 - Motivational system to maintain consistency
 
 ### Key Statistics
-- **756 words** with definitions, Russian translations, examples, and memory tips
+- **765 words** with definitions, Russian translations, examples, and memory tips
 - **5+ correct answers** required to mark a word as "learned"
 - **10-question quizzes** with randomized selection (no word repetition)
 - **8-minute intervals** for motivational notifications
@@ -87,7 +87,7 @@ sat-vocab-trainer/
 │   ├── useProgress.ts          # Progress tracking logic
 │   └── useErrorAnalytics.ts    # Error analysis logic
 ├── data/
-│   └── words.ts                # 756 SAT words with full data
+│   └── words.ts                # 765 SAT words with full data
 ├── public/                     # Static assets
 ├── node_modules/               # Dependencies
 ├── package.json                # Project configuration
@@ -104,7 +104,7 @@ sat-vocab-trainer/
 ## ✨ Core Features
 
 ### 1. **Vocabulary Browser** (Main Page)
-- **756 word cards** in responsive grid layout
+- **765 word cards** in responsive grid layout
 - **Search functionality** - filter words instantly
 - **Part of speech badges** - visual categorization
 - **Learned indicators** - green checkmark for mastered words
@@ -486,7 +486,7 @@ interface Word {
 ```
 
 **Statistics**:
-- **Total Words**: 756
+- **Total Words**: 765
 - **Adjectives**: 328 (44.2%)
 - **Verbs**: 246 (33.2%)
 - **Nouns**: 161 (21.7%)
@@ -705,7 +705,7 @@ export default config;
 ### For Students
 
 **1. Browse Vocabulary**:
-- Scroll through 756 word cards on homepage
+- Scroll through 765 word cards on homepage
 - Use search bar to find specific words
 - Click any card to view full details in modal
 - Green checkmarks indicate learned words
@@ -1006,7 +1006,7 @@ When reporting bugs, include:
 
 The **SAT Vocabulary Trainer** is a comprehensive, modern web application that combines effective learning methodologies with engaging UX features. Built with Next.js 15, TypeScript, and Tailwind CSS, it provides:
 
-✅ **756 carefully curated SAT words** with full context
+✅ **765 carefully curated SAT words** with full context
 ✅ **Intelligent quiz system** with controlled randomization
 ✅ **Advanced progress tracking** with localStorage persistence
 ✅ **Error analytics dashboard** for targeted improvement

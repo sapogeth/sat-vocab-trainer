@@ -6055,5 +6055,77 @@ export const words: Word[] = [
     example: "The author's final novel was published posthumously.",
     tip: "Posthumous = POST (after) death, happening after someone dies.",
     partOfSpeech: "adverb"
+  },
+{
+    word: "incompatibilities",
+    definition: "things that are unable to exist or work together in combination without conflict",
+    russian: "несовместимости, противоречия",
+    example: "The incompatibilities between the two software systems caused major problems.",
+    tip: "In-compatible = NOT able to work together, like oil and water.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "restraints",
+    definition: "measures or conditions that limit or restrict someone or something",
+    russian: "ограничения, сдерживание",
+    example: "Budget restraints forced the company to cancel the project.",
+    tip: "Restraints = things that restrain (hold back), like handcuffs or rules.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "disruptions",
+    definition: "disturbances or problems that interrupt an event, activity, or process",
+    russian: "нарушения, сбои, помехи",
+    example: "The disruptions caused by the storm delayed flights for hours.",
+    tip: "Disruptions = things that disrupt (break apart) normal flow.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "inconsistencies",
+    definition: "instances of being inconsistent; contradictions or lack of uniformity",
+    russian: "несоответствия, противоречия, непоследовательность",
+    example: "The detective found inconsistencies in the suspect's story.",
+    tip: "In-consistencies = NOT consistent, things that don't match up.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "comprehension",
+    definition: "the ability to understand something; understanding or grasp of meaning",
+    russian: "понимание, осмысление",
+    example: "Reading comprehension is essential for success on the SAT.",
+    tip: "Comprehension = to comprehend (grasp fully), complete understanding.",
+    partOfSpeech: "noun"
+  },
+{
+    word: "exhaustive",
+    definition: "examining or including all elements or aspects; thorough and complete",
+    russian: "исчерпывающий, полный, всесторонний",
+    example: "The researcher conducted an exhaustive study of the topic.",
+    tip: "Exhaustive = so thorough it exhausts all possibilities, leaving nothing out.",
+    partOfSpeech: "adjective"
+  },
+{
+    word: "redundant",
+    definition: "no longer needed or useful; superfluous or repetitive",
+    russian: "излишний, избыточный, лишний",
+    example: "The editor removed redundant phrases from the essay.",
+    tip: "Redundant = more than needed, repeating what's already said.",
+    partOfSpeech: "adjective"
+  },
+{
+    word: "interchangeable",
+    definition: "able to be exchanged with each other without making a difference",
+    russian: "взаимозаменяемый, равнозначный",
+    example: "The two words are often used as interchangeable synonyms.",
+    tip: "Interchangeable = can be changed between, swapped without difference.",
+    partOfSpeech: "adjective"
+  },
+{
+    word: "complementary",
+    definition: "combining in such a way as to enhance or emphasize the qualities of each other",
+    russian: "дополняющий, взаимодополняющий",
+    example: "Their complementary skills made them an excellent team.",
+    tip: "Complementary = completes each other, fits together perfectly (not complimentary = free!).",
+    partOfSpeech: "adjective"
   }
 ];
